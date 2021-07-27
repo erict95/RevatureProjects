@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\Users\Eric secondary\Documents\git_repos\2105-may24-java\eric_tran_code\Assignments and Projects\project_0\.metadata\.plugins\org.eclipse.jdt.core
+530401447.index
+1858581341.index
+2790894088.index
+1478401283.index
+3131464403.index
+2788212280.index

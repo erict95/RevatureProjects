@@ -1,0 +1,78 @@
+2021-06-23 08:49:55 INFO  LoginDAO:101 - Looking at all restaurants.
+
+2021-06-23 08:50:45 INFO  LoginDAO:101 - Looking at all restaurants.
+
+2021-06-23 09:07:31 INFO  LoginDAO:55 - A new Restaurant was added.
+
+2021-06-23 09:07:40 INFO  LoginDAO:76 - A new Health Inspector was added.
+
+2021-06-23 09:08:05 INFO  LoginDAO:101 - Looking at all restaurants.
+
+2021-06-23 09:08:32 INFO  LoginDAO:75 - A new Refrigerator was added.
+
+2021-06-23 09:08:33 INFO  LoginDAO:229 - Looking at all refrigerators.
+
+2021-06-23 09:09:02 INFO  LoginDAO:75 - A new Refrigerator was added.
+
+2021-06-23 09:09:03 INFO  LoginDAO:229 - Looking at all refrigerators.
+
+2021-06-23 09:09:18 INFO  LoginDAO:229 - Looking at all refrigerators.
+
+2021-06-23 09:09:36 INFO  LoginDAO:95 - A new Refrigerator was added.
+
+2021-06-23 09:09:41 INFO  LoginDAO:101 - Looking at all restaurants.
+
+2021-06-23 09:09:48 INFO  LoginDAO:229 - Looking at all refrigerators.
+
+2021-06-23 09:09:57 INFO  LoginDAO:229 - Looking at all refrigerators.
+
+2021-06-23 09:10:12 INFO  LoginDAO:160 - A new Refrigerator was added.
+
+2021-06-23 09:10:18 INFO  LoginDAO:229 - Looking at all refrigerators.
+
+2021-06-23 09:10:33 INFO  LoginDAO:229 - Looking at all refrigerators.
+
+2021-06-23 09:11:03 INFO  LoginDAO:201 - A new Refrigerator was added.
+
+2021-06-23 09:11:08 INFO  LoginDAO:229 - Looking at all refrigerators.
+
+2021-06-23 09:11:26 INFO  LoginDAO:229 - Looking at all refrigerators.
+
+2021-06-23 09:11:34 ERROR LoginDAO:144 - An error occurred here
+org.postgresql.util.PSQLException: ERROR: syntax error at or near ","
+  Position: 46
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:130)
+	at restaurant.DAO.RRefrigeratorDAO.removeF(RRefrigeratorDAO.java:139)
+	at restaurant.DAO.RefrigeratorDAOServ.minusF(RefrigeratorDAOServ.java:38)
+	at main.P2_test.main(P2_test.java:176)
+2021-06-23 09:11:52 INFO  LoginDAO:229 - Looking at all refrigerators.
+
+2021-06-23 09:11:58 INFO  LoginDAO:160 - A new Refrigerator was added.
+
+2021-06-23 09:19:55 INFO  LoginDAO:229 - Looking at all refrigerators.
+
+2021-06-23 09:19:59 ERROR LoginDAO:144 - An error occurred here
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "restaurant_owner"
+  Position: 47
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:130)
+	at restaurant.DAO.RRefrigeratorDAO.removeF(RRefrigeratorDAO.java:139)
+	at restaurant.DAO.RefrigeratorDAOServ.minusF(RefrigeratorDAOServ.java:38)
+	at main.P2_test.main(P2_test.java:176)
+2021-06-23 09:20:57 INFO  LoginDAO:229 - Looking at all refrigerators.
+
+2021-06-23 09:21:01 INFO  LoginDAO:140 - A new Refrigerator was added.
+
+2021-06-23 09:21:07 INFO  LoginDAO:229 - Looking at all refrigerators.
+

@@ -1,0 +1,23 @@
+1624226683841	Delete elements
+1624228009602	Encapsulate field 'eatPlace'
+1624228026404	Encapsulate field 'noteTaker'
+1624241221765	Move compilation unit
+1624241228988	Move compilation unit
+1624241269748	Delete element
+1624250762244	Delete element
+1624338032954	Delete element
+1624338309563	Move compilation unit
+1624338314868	Move compilation unit
+1624338651113	Move compilation unit
+1624338658271	Move compilation unit
+1624338670705	Move compilation unit
+1624338675173	Move compilation unit
+1624338680792	Move compilation unit
+1624338686843	Delete element
+1624338783295	Rename package 'facilities.DAO'
+1624416431430	Delete element
+1624420718863	Rename field 'userR'
+1624420747921	Rename field 'userH'
+1624435227251	Rename local variable 'c'
+1624435247835	Rename local variable 'b'
+1624435258871	Rename local variable 'a'

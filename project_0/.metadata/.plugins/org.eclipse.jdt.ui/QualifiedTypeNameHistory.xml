@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="register.Register"/>
+<fullyQualifiedTypeName name="register.Restaurant"/>
+<fullyQualifiedTypeName name="register.Health_Inspector"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="restaurant.RRefrigerator"/>
+<fullyQualifiedTypeName name="register.Refrigerator"/>
+<fullyQualifiedTypeName name="register.RefrigeratorDAO"/>
+<fullyQualifiedTypeName name="register.Login"/>
+<fullyQualifiedTypeName name="register.Registration"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Level"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="facilities.Interfaces.ConnectionDB"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="facilities.Interfaces.RegistrationDAOinter"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="restaurant.DAO.LoginDAO"/>
+<fullyQualifiedTypeName name="user.Models.Restaurant"/>
+<fullyQualifiedTypeName name="user.Models.Health_Inspector"/>
+<fullyQualifiedTypeName name="user.Models.Refrigerator"/>
+<fullyQualifiedTypeName name="facilities.Interfaces.RefrigeratorDAOinter"/>
+<fullyQualifiedTypeName name="facilities.Interfaces.RegistrationDAOinterServ"/>
+<fullyQualifiedTypeName name="facilities.Interfaces.RefrigeratorDAOinterServ"/>
+<fullyQualifiedTypeName name="restaurant.DAO.RefrigeratorDAOServ"/>
+<fullyQualifiedTypeName name="restaurant.DAO.RegistrationDAOServ"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+</qualifiedTypeNameHistroy>

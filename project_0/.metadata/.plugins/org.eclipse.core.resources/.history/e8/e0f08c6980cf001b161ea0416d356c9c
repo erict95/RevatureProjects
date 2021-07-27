@@ -1,0 +1,68 @@
+package healthInspector;
+
+import register.Health_Inspector;
+import register.Refrigerator;
+import register.Registration;
+import restaurant.RRefrigerator;
+
+/*
+ * 
+ * remove all items
+ */
+
+public class HIRefrigerator extends RRefrigerator {
+	RRefrigerator useful = new RRefrigerator();
+	public HIRefrigerator(String food1, String food2, String food3) {
+		super(food1, food2, food3);
+	}
+
+	public HIRefrigerator() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void showFridges() {
+		for (int x = 0; x < useful.getFridgeList().size(); x++) {
+			for (int y = 3; y < useful.getFridgeList().get(x).size(); y++) {
+				if (useful.getFridgeList().get(x).get(y).equals(Registration.getUserH())) {
+					System.out.println(useful.getFridgeList().get(x));
+					break;
+				}
+			}
+		}
+	}
+
+	@Override
+	public void removeFood() {
+		boolean more = true;
+		boolean access = false;
+		if (numF > 0) {
+			do {
+				System.out.println(useful.getFridgeList());
+				System.out.println(
+						"Which refrigerator do you want to remove food from? " + "Insert a number starting at 1: ");
+				int x = referenceType.nextInt();
+				for (int a = 3; a < useful.getFridgeList().get(x).size(); a++) {
+					if (useful.getFridgeList().get(x).get(a).equals(Registration.getUserH())) {
+						access = true;
+						System.out.println(useful.getFridgeList().get(--x));
+						System.out.println("Which food do you want to remove? Insert a number from 1-3: ");
+						int y = referenceType.nextInt();
+						if (useful.getFridgeList().get(x).get(--y).equals("empty"))
+							System.out.println("There is already nothing here");
+						else
+							useful.getFridgeList().get(x).set(y, "empty");
+					}
+				}
+				if (access)
+					System.out.println("You do not have access to this refrigerator");
+				System.out.println("Would you like to do anything else? yes or no?");
+				String food = referenceType.next();
+				if (food.equals("yes"))
+					continue;
+				else
+					more = false;
+			} while (more);
+		}
+	}
+}

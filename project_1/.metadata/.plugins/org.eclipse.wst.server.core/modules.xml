@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:project_1" serverId="Apache_Project"/>
+  <module moduleId="org.eclipse.jst.jee.server:project1.2" serverId="Apache_Project"/>
+</modules>

@@ -1,0 +1,10 @@
+127.0.0.1 - - [22/Jul/2021:22:59:15 -0700] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [22/Jul/2021:22:59:51 -0700] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Jul/2021:23:05:16 -0700] "GET /project_1/index.html HTTP/1.1" 200 662
+0:0:0:0:0:0:0:1 - - [22/Jul/2021:23:05:16 -0700] "GET /project_1/css/styles.css HTTP/1.1" 200 367
+127.0.0.1 - - [22/Jul/2021:23:05:27 -0700] "GET /project_1/index.html HTTP/1.1" 200 662
+127.0.0.1 - - [22/Jul/2021:23:05:27 -0700] "GET /project_1/css/styles.css HTTP/1.1" 200 367
+127.0.0.1 - - [22/Jul/2021:23:05:27 -0700] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [22/Jul/2021:23:06:51 -0700] "POST /project_1/forwarding/login HTTP/1.1" 200 1766
+127.0.0.1 - - [22/Jul/2021:23:06:51 -0700] "GET /project_1/js/employee.js HTTP/1.1" 200 1879
+127.0.0.1 - - [22/Jul/2021:23:06:53 -0700] "GET /project_1/json/userQueries HTTP/1.1" 200 709
