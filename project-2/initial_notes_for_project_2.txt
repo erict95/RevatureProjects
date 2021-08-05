@@ -1,0 +1,32 @@
+User
+>Username
+>Password
+>First Name
+>Last Name
+>Email
+>Picture
+>User ID (PK)
+
+Sign Up
+>All the user variables
+
+Log In
+>Username
+>Password
+
+>>>>>>>>>Comments Table (optional)
+>User ID
+>Comments
+>Post ID
+>Time
+>Like
+>DisLike
+
+>>>>>>>>>>Post Table
+>Post ID
+>User ID
+>Time
+>Like
+>DisLike
+>Image
+>Content

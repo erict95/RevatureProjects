@@ -1,0 +1,16 @@
+upload image code steps:
+
+create s3 bucket in aws
+create-react-app  upload-image-s3
+cd upload-images-s3
+npm add aws-amplify
+npm install aws-amplify @aws-amplify/ui-react
+npm add  aws-sdk
+npm install -g@aws-amplify/cli
+amplify configure (forward to amazon webside to create additional user for s3, after finish you need two generated keys to complete the config)
+amplify init
+amplify add storage
+(update: project name, allow authorized (create/update, read, delete)and guests(create/update, read) )
+amplify push
+update App.js, index.js
+

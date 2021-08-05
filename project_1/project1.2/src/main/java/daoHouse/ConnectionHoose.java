@@ -14,9 +14,9 @@ public class ConnectionHoose {
         }
     }
 	
-	public static String url = "jdbc:postgresql://pocketmon.c628r9ldjbez.us-east-2.rds.amazonaws.com/Project_1";
-	public static String username = "pmonster";
-	public static String password = "p4ssw0rd";
+	public static String url = "jdbc:postgresql://""/Project_1";
+	public static String username = "";
+	public static String password = "";
 	
 	public static Connection getConnection() throws SQLException{
 		return DriverManager.getConnection(url, username, password);
