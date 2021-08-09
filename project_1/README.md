@@ -20,3 +20,11 @@ Servlets, Java, JavaScript, HTML, CSS, JDBC
 
 ## Getting Started
 (include git clone command) (include all environment setup steps)
+1. Git clone project 1.
+2. Navigate to src > main > java > daoHouse > ConnectionHoose.java and insert database credentials under: 
+* public static String url = "jdbc:postgresql://""/Project_1";
+*	public static String username = "";
+*	public static String password = "";
+3. Create a Apache Tomcat server.
+4. Start the server.
+5. Run the index.html.
