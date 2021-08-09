@@ -16,12 +16,12 @@ Spring, Java, SQL, Hibernate, HTML, CSS, JavaScript, Log4J, JUnit, React, Redux,
 ## Getting Started
 (include git clone command) (include all environment setup steps)
 1. Git clone project 2.
-2. Open Initial-Project-Hibernate > project2hibernate > src > main > webapp > WEB-INF and modify the value in:
-  * <property name="url" value="jdbc:postgresql://""/project2db"/>
-	*	<property name="username" value=""/>
-	*	<property name="password" value=""/>
-3. Start the Apache Tomcat server.
-4. Open Fire-Nation > my-app in Visual Studio Code and enter "npm start" in the console.
+2. Open Initial-Project-Hibernate > project2hibernate > src > main > webapp > WEB-INF and enter in your database credentials in:
+	* property name url
+	* property name username
+	* property name password
+4. Start the Apache Tomcat server.
+5. Open Fire-Nation > my-app in Visual Studio Code and enter "npm start" in the console.
 
 Contributors
 * Eric Tran
